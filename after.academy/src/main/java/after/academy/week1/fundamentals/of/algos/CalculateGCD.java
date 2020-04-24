@@ -1,5 +1,13 @@
 package after.academy.week1.fundamentals.of.algos;
 
+/**
+ * 
+ * @author 91783
+ * Time complexity is O(1)
+ * stack and aux space complexity is O(1)
+ *
+ */
+
 public class CalculateGCD {
 
 	private static int calculateGCD(int a,int b) {
