@@ -1,12 +1,15 @@
 1) find mediean in sorted but different size of arrays -> DONE
+
 2) having sorted array with n size all the values are unique but 1 value is duplicate, find that duplicate value..
+
 3) having sorted array with n size all the values are duplicate but 1 value is unique, find that unique value..
+
 4) having a sorted infinate array ( lenght/size is unknown (can't use lenght property of array)) some few values of 
 array is 0's after that all are 1's find the first position of 1
-i.e [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+i.e [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] -> JUST PSEUDO
 
 5)having a sorted infinate array ( lenght/size is unknown (can't use lenght property of array)) some few values of 
 array is -val after that all are +post find the first position of +val
-i.e [-10,-7,-4,-2,-1,0,1,2,3,4,6,8,9,10,20]
+i.e [-10,-7,-4,-2,-1,0,1,2,3,4,6,8,9,10,20] -> DONE
 
 
