@@ -30,8 +30,8 @@ public class FindFirstPositiveValinSortedInfinateArray {
 		
 		while(array[end] < 0) {
 			
-			lower = interval + 1;
-			end = (interval * 2);
+			lower = end + 1;
+			end = (end * 2);
 		}
 		// perform binary-searching on the located interval
 		return binarySearching(array,lower,end);
