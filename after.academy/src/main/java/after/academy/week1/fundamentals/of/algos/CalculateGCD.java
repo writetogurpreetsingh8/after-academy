@@ -10,8 +10,10 @@ package after.academy.week1.fundamentals.of.algos;
 
 public class CalculateGCD {
 
+	private static int c = -1;
 	private static int calculateGCD(int a,int b) {
 		
+		c++;
 		if(b == 0) {
 			return a;
 		}
@@ -22,7 +24,9 @@ public class CalculateGCD {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(CalculateGCD.calculateGCD(12, 3));
+		System.out.println(CalculateGCD.calculateGCD(42421, 8));
+		System.out.println(Math.floor(3/10));
+		System.out.println("c is "+c);
 	}
 
 }
