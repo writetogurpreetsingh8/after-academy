@@ -29,7 +29,7 @@ public class FindPositionOfElementInInfiniteArray {
 		while(array[end] < key) {
 		
 			lower = end+1;
-			end = (interval * 2);
+			end = (end * 2);
 		}
 		//perform binary searching on the find interval..........
 		return binarySearchingOnTheInterval(key,lower,end,array);
