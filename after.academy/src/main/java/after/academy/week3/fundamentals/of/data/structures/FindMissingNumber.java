@@ -8,6 +8,7 @@ package after.academy.week3.fundamentals.of.data.structures;
  */
 public class FindMissingNumber {
 
+	
 	private static int findMissingNumber(int array[]) {
 		
 		if(array == null || array.length == 0) {
