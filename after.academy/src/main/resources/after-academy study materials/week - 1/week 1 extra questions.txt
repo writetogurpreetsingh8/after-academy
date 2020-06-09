@@ -2,7 +2,7 @@
 
 2) having sorted array with n size all the values are unique but 1 value is duplicate, find that duplicate value..
 
-3) having sorted array with n size all the values are duplicate but 1 value is unique, find that unique value..
+3) having sorted array with n size all the values are duplicate but 1 value is unique, find that unique value.. -> PSEUDO
 
 4) having a sorted infinate array ( lenght/size is unknown (can't use lenght property of array)) some few values of 
 array is 0's after that all are 1's find the first position of 1
@@ -12,4 +12,51 @@ i.e [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1
 array is -val after that all are +post find the first position of +val
 i.e [-10,-7,-4,-2,-1,0,1,2,3,4,6,8,9,10,20] -> DONE
 
+6) Find the smallest and second smallest element in the array using minimum number of comparsions
+7) Find the minimum element in a sorted and rotated array -> DONE
+8) Find Kth largest element in an array -> will soon
+9) Find Kth smallest element in an array -> will soon
+10) Find the middle element among three numbers
+11) Find median of k sorted arrays 
 
+12) Find the index of first 1 in an infinite sorted array of 0s and 1s
+13) Find the point where a monotonically increasing function becomes positive first time
+14) Search an element in a sorted and rotated array
+15) Find the maximum element in an array which is first increasing and then decreasing
+16) Find the first and last occurrence of a number in a sorted array
+
+===========================================================================================================================
+
+Ans of above question number is 3) by using XOR operator (if we have un-sorted list) -> DONE
+1) https://www.youtube.com/watch?v=C8o_CLCxohk
+
+Ans of above question number is 3) by using binary search (if we have sorted list) -> DONE
+2) https://www.youtube.com/watch?v=SmdzCnDD_HM
+
+https://www.youtube.com/watch?v=mHfvInveXDQ
+
+3) find repeating & missing number into arrays
+https://www.youtube.com/watch?v=OTkoJOP6m6w => DONE
+
+remove duplicate value into sorted array
+4) https://www.youtube.com/watch?v=gf7vdIin0dk
+
+
+5) Reverse linked list in the blocks -> DONE
+i.e 1->2->3->4-5->6->7->8->9->109
+
+reverse block count is x = 4
+
+4->3->2->1->8->7->6->5->10->9
+
+head will point at 4
+
+6) merge two sorted arrays with the same size without taking extra space. TC should be in  O(n)
+first array size would be like 9/10(even or odd)
+second array size would also be as same as first array but both array would fill partially 
+i.e array1 size = 5 [4,6,7] array2 size = 5 [10,11] 
+So array1 can be placed into array2 or array2 can be placed into array1 into sorted manner
+by using two-way merging by start array scanning from backward.....    DONE
+
+7) multiply strings 
+https://www.youtube.com/watch?v=CnEFY5Y3Z68

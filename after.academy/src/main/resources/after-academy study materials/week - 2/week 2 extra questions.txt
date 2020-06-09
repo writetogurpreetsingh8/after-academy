@@ -1,0 +1,59 @@
+1) 	Karatsuba algorithm for fast multiplication -> DONE
+	https://www.youtube.com/watch?v=IxSxi2P6Fmg
+
+2) 	Median of two sorted arrays of the same size -> DONE
+
+3) 	Inversion count in an array -> DONE
+	https://www.youtube.com/watch?v=O9V3sZ4QnDc
+
+4) Kth smallest element after merging two sorted array > DONE
+5) Square Root of Integer -> DONE
+6) Maximum Subarray Sum -> DONE
+
+7) Merge two sorted arrays ->pseudo
+
+8) Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
+	For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
+	Given A = [1, 2, 3], the function should return 4.
+	Given A = [−1, −3], the function should return 1. =>  DONE
+
+9) Given an array of integers, and a number K, print all pairs in the array whose sum is equal to K.
+   Given a list(sorted / unsorted) of n-1 integers and these integers are in the range of 1 to n.Find the missing integer. => DONE
+	
+10) Given an array of n integers and given a number K, determines whether or not there exist two elements whose sum is exactly K
+11) Given two unsorted arrays(elements in every array are distinct), find the intersection of two arrays
+12) Given an unsorted array of integers, find the length of the longest consecutive sequence.
+13) Given an array and a value, find if there is a triplet in the array whose sum is equal to the given value.
+	
+14) Given a sorted array(elements can be repeated) and a number x, ﬁnd the frequency of x in the array. -> PSEUDO DONE
+	
+15) A given integer K appears more than n/2 times in a sorted array of n integers.Find the integer K
+
+16) Search for a Range in a sorted array
+17) Median in a row-wise sorted matrix
+
+18)	Longest Common Prefix
+
+19) Find the closest pair of points
+	https://www.youtube.com/watch?v=0IOEPcAHgi4
+	https://www.youtube.com/watch?v=cUj_ZKMdIZU
+	https://www.youtube.com/watch?v=O9V3sZ4QnDc
+
+20) Algorithm for fast Fourier transform
+21)	Find an element in Bitonic array
+
+22) 	Finding convex hull
+23) 	Strassen’s matrix multiplication
+
+
+24) Finding Celebrity Puzzle : In a party on N people, There is celebrity. A celebrity is a person who knows nobody but is known 
+	by everyone else. The task is to identify a celebrity by only asking questions to people present in the party : 
+	Does person A know B? Design a strategy to find the celebrity in minimum number of questions or determine that the group has no 
+	such person.
+	
+
+25) Check for pair with a given sum in Binary Search Tree
+26) Find the maximum product subarray
+27) Find the sum of the maximum elements of every possible sub-array
+28) Calculate maximum sum submatrix of size k x k in m x n matrix
+29) Find the longest subarray in a binary array with an equal number of 0s and 1s
