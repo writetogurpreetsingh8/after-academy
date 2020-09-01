@@ -16,7 +16,7 @@ public class FabonaciSeries {
 		array[n] = fabo(n-1,array)+fabo(n-2,array);
 		return array[n];
 		// devellpent branch..........
-		// aded by local
+
 }
 
 	private static int facto(int n) {
