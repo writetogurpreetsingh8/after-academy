@@ -7,7 +7,6 @@ package after.academy.week1.fundamentals.of.algos;
 
 public class FindMissingAndRepeatNoIntoArray {
 
-
 	static void missingAndRepeart(int arr[]) {
 	
 		int i;

@@ -46,7 +46,7 @@ public class FindMinInSortedAndRotatedArray {
 	public static void main(String[] args) {
 
 		FindMinInSortedAndRotatedArray instance = new FindMinInSortedAndRotatedArray();
-		int array[]= {6,7,8,9,0,0,1,-1,2,3,4};
+		int array[]= {1,2,3,4,5};
 		System.out.println(instance.findMin(array));
 	}
 

@@ -60,3 +60,30 @@ by using two-way merging by start array scanning from backward.....    DONE
 
 7) multiply strings 
 https://www.youtube.com/watch?v=CnEFY5Y3Z68
+
+Move all zeroes to the end
+Merge two sorted lists
+Find the closest pair from two sorted arrays
+Find a triplet with the given sum
+Intersection of two sorted array
+Remove duplicates from sorted array
+Minimum Absolute Difference in an Array
+maximum j – i such that A[j] > A[i]
+Wave Array
+Set Matrix Zeroes
+Spiral Matrix
+Rotate matrix
+Container with Most Water
+
+Suggested Problems to solve in Recursion
+
+Find an element in Bitonic array
+Search for a Range in a sorted array
+Missing Number
+Search a 2-D Matrix
+Median in row wise sorted matrix
+Find minimum element in sorted and rotated array
+Recursive Insertion Sort
+Median of two sorted array of same size
+Inversion count in an array
+Longest Common Prefix

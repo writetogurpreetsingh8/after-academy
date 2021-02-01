@@ -19,13 +19,11 @@ public class FindMedianOfTwoSortedArrays {
 			 return -1;
 		 }
 		 if ( array1[n-1] < array2[0] )
-			 return ( array1[n-1] + array2[0]) / 2; // corner cases
+			 return ( array1[n-1] + array2[0]) / 2; // corner cases applies
 		
 		 else if ( array2[n-1] < array1[0] )
 		return ( array1[0] + array2[n-1]) / 2; // corner cases
-		 
 		 else {
-			 
 			  int i=0, j=0, k=0;
 			  int m1=0 , m2=0;
 			  while(k < n-1){

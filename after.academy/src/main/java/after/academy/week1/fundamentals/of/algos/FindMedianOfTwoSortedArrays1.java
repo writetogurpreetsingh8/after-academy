@@ -37,27 +37,27 @@ package after.academy.week1.fundamentals.of.algos;
 				 mid1 = findMedian(array1,start1,end1);
 				 mid2 = findMedian(array2,start2,end2);
 				 
-				 if(Math.abs((mid1 - mid2)) == 1) {
+				 //in case of there is one 1 unit of difference b/w both the mid's
+				 //might be in case of ascending or descending array
+				 /*if(Math.abs((mid1 - mid2)) == 1) {
+					 System.out.println("abs..................");
 					 return ((double)mid1 + (double)mid2) / 2;
-				 }
+				 }*/
 				 if(mid1 == mid2) {
+					 System.out.println("............................");
 					 return (double)mid1;
 				 }
 				 elementCount = countElements(start1,end1);
-				
 				 if(elementCount % 2 == 0) {
-					 
 					 if( mid1 < mid2 ) {
-						 
-						 start1 = (((end1+start1)-1) / 2);
-						 end2 = ((end2+start2)/2)+1;
+						 start1 = ( ( (end1+start1) -1 ) / 2);
+						 end2 = ( ( (end2+start2) + 1 ) /2);
 					 }else {
-						 start2 = (((end2+start2)-1)/2);
-						 end1 = ((end1+start1)/2)+1;
+						 start2 = ( ( (end2+start2) -1 ) /2);
+						 end1 = ( ( (end1+start1) + 1) /2);
 					 }
 				 }else {
 					 if( mid1 < mid2 ) {
-						 
 						 start1 = (start1+end1)/2;
 						 end2 = (start2+end2)/2;
 					 }else {
@@ -84,12 +84,13 @@ package after.academy.week1.fundamentals.of.algos;
 		return (end - start + 1);
 	}
 	
-
-	
 	public static void main(String[] args) {
 
 		int array1[]= {1,2,3,5,7,8,10,101};
 		int array2[]= {4,6,9,11,12,50,100,102};
+		
+		//int array1[]= {1,3,5,7};
+		//int array2[]= {2,4,6,8};
 		
 		System.out.println(FindMedianOfTwoSortedArrays1.findMedian(array1, array2, array1.length-1));
 	}
