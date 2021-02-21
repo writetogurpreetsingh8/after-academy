@@ -2,7 +2,7 @@ package after.academy.week1.fundamentals.of.algos;
 
 /**
  * 
- * TC O(N), stack stace (1) and aux space O(1)
+ * TC O(N), stack space (1) and aux space O(1)
  */
 
 public class FindMissingAndRepeatNoIntoArray {
@@ -38,7 +38,7 @@ public class FindMissingAndRepeatNoIntoArray {
 	
 	public static void main(String[] args) {
 		
-		int arry[]= {2,2,0,1,4};
+		int arry[]= {1,2,2,0,3,4,5};
 		FindMissingAndRepeatNoIntoArray.missingAndRepeart(arry);
 	}
 

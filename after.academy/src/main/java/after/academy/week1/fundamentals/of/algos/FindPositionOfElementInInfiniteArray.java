@@ -65,6 +65,7 @@ public class FindPositionOfElementInInfiniteArray {
 		
 		int array[]= {1,2,3,4,5,6,7,8,30,40,50,51,55,57,100};
 		System.out.println(FindPositionOfElementInInfiniteArray.findPosition(array, 40));
+		System.out.println(9^5);
 	}
 
 }

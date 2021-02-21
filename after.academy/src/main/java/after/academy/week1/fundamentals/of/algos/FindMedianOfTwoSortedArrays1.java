@@ -86,11 +86,11 @@ package after.academy.week1.fundamentals.of.algos;
 	
 	public static void main(String[] args) {
 
-		int array1[]= {1,2,3,5,7,8,10,101};
-		int array2[]= {4,6,9,11,12,50,100,102};
+		//int array1[]= {1,2,3,5,7,8,10,101};
+		//int array2[]= {4,6,9,11,12,50,100,102};
 		
-		//int array1[]= {1,3,5,7};
-		//int array2[]= {2,4,6,8};
+		int array1[]= {1,3,5,7};
+		int array2[]= {2,4,6,8};
 		
 		System.out.println(FindMedianOfTwoSortedArrays1.findMedian(array1, array2, array1.length-1));
 	}
